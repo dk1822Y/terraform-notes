@@ -1,5 +1,5 @@
 resource "google_compute_instance" "terraform" {
-  project      = "khalid-gcp-00-4bbxd0ol0m"
+  project      = "test-gcp-00-4bbxd0ol0m"
   name         = "terraform"
   machine_type = "n1-standard-1"
   zone         = "us-central1"

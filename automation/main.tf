@@ -7,7 +7,7 @@ terraform {
 }
 provider "google" {
   version = "5.1.0"
-  project = "khalid-gcp-00-4bbxd0ol0m"
+  project = "test-gcp-00-4bbxd0ol0m"
   region  = "us-central1"
   zone    = "us-central1-c"
 }

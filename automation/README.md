@@ -15,8 +15,9 @@
 - In some cases, there may be dependencies between resources that are not apparent to Terraform. To explicitly define dependencies, you can use the `depends_on` argument, which accepts a list of resources.
 - Similar to `terraform apply`, Terraform determines the order in which resources should be destroyed.
 
-# Initialize, Apply & Verify
+# Initialize, Apply, Verify & Destroy
 
 - `terraform init`
 - `terraform apply`
 - `terraform show`
+- `terraform destroy`
