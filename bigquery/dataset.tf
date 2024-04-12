@@ -11,4 +11,10 @@ module "bigquery_dataset" {
     "data_owner"     = "var.data_owner"
     "classification" = "confidential"
   }
+  access = [
+    {
+      role          = "roles/bigquery.dataViewer"
+      service_account_email = "service_account@project.iam.gserviceaccount.com"
+    },
+  ]
 }
